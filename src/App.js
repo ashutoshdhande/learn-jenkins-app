@@ -6,14 +6,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={
+            "https://cdn.pixabay.com/photo/2020/01/02/06/29/goku-4735092_1280.jpg" ||
+            logo
+          }
+          className="App-logo"
+          style={{
+            width: "100px",
+            height: "100px",
+            borderRadius: "50%",
+            objectFit: "cover",
+          }}
+          alt="logo"
+        />
         <a
           className="App-link"
-          href="https://example.com"
+          href="https://hianime.to/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Jenkins on Udemy
+          Watch Anime
         </a>
       </header>
       <p>Application version: 1</p>
