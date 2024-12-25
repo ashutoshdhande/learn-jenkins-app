@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img
           src={
-            "https://cdn.pixabay.com/photo/2020/01/02/06/29/goku-4735092_1280.jpg" ||
+            "https://cdn.pixabay.com/photo/2021/02/25/14/12/rinnegan-6049194_1280.png" ||
             logo
           }
           className="App-logo"
